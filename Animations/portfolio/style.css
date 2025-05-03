@@ -12,6 +12,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-family: Times New Roman;
+  background: linear-gradient(to right, indigo, white, indigo);
 }
 
 header,
@@ -48,9 +50,20 @@ h1,
 
 .dropdown {
   height: 40%;
-  width: 80%;
+  width: auto;
+  color: white;
+  background: linear-gradient(to left, indigo, white);
+  padding-right: 2rem;
+  padding-left: 2rem;
   font-size: 0.9rem;
   margin-bottom: 5%;
+  transition: 0.5s ease;
+  border: 1px solid indigo;
+}
+
+.dropdown:hover {
+  background: indigo;
+  border: transparent;
 }
 
 .info {
@@ -170,7 +183,7 @@ input {
   }
 
   .dropdown {
-    width: 30%;
+    width: auto;
   }
 
   .navigation ul li {
@@ -196,7 +209,7 @@ input {
   }
 
   .dropdown {
-    width: 25%;
+    width: auto;
   }
 
   .navigation ul li {

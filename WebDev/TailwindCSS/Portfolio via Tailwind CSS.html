@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <script
+      src="https://kit.fontawesome.com/9543881a04.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body
+    class="min-w-[480px] flex justify-center items-center flex-col bg-sky-100"
+  >
+    <!--  Hero Section  -->
+    <section
+      class="px-4 py-10 mb-10 sm:py-0 sm:p-4 w-screen h-screen flex flex-wrap justify-center items-center min-w-[480px]"
+    >
+      <img
+        class="h-sm w-sm sm:h-sm sm:w-sm md:h-md md:w-md rounded-full mix-blend-darken"
+        src="images/pfp.jpg"
+        alt="Sanjeevani's photograph"
+      />
+      <!-- <h4 class="text-lg">Making Lives Simpler</h4> -->
+      <h1 class="text-xl sm:text-4xl md:text-5xl lg:text-6xl font-serif">
+        Hi, <br />
+        My name is Sanjeevani Sahare
+      </h1>
+      <h2 class="text-lg sm:text-xl md:3xl lg:text-5xl text-center">
+        Front-End Developer | Aspiring MERN Stack Developer
+      </h2>
+    </section>
+
+    <!-- Bio Section  -->
+    <section
+      class="mb-10 sm:h-screen h-screen flex flex-col justify-center items-center"
+    >
+      <h2
+        class="mt-10 text-xl sm:text-4xl md:text-5xl lg:text-5xl text-center underline underline-offset-3 font-serif"
+      >
+        Bio
+      </h2>
+      <p class="pt-10 mx-5 md:pt-15 md:px-15 md:text-xl text-justify">
+        I am a passionate Front-End Developer and aspiring MERN Stack Developer
+        with a background in Computer Science Engineering. I thrive on building
+        clean, responsive, and user-friendly web experiences that combine
+        creativity with performance. With a deep interest in modern web
+        technologies and UI/UX principles, I continuously explore new frameworks
+        and tools to stay ahead of the curve. Whether it's crafting seamless
+        interfaces with React or diving into full-stack projects using MongoDB,
+        Express, and Node.js — I am driven by curiosity, adaptability, and a
+        desire to grow as a developer. I'm eager to take on challenges that push
+        me forward in this fast-paced tech landscape.
+      </p>
+      <div class="my-10 mx-5 max-w-full grid grid-cols-6 gap-5">
+        <img src="images/html.webp" alt="HTML logo" class="mix-blend-darken" />
+        <img
+          src="images/css.png"
+          alt="CSS logo"
+          class="translate-y-25 mix-blend-darken"
+        />
+        <img
+          src="images/javascript.webp"
+          alt="JavaScript logo"
+          class="mix-blend-darken"
+        />
+        <img
+          src="images/nodejs.png"
+          alt="NodeJS logo"
+          class="translate-y-25 mix-blend-darken"
+        />
+        <img
+          src="images/mongodb.png"
+          alt="MongoDB logo"
+          class="mix-blend-darken"
+        />
+        <img
+          src="images/React.webp"
+          alt="React logo"
+          class="translate-y-25 mix-blend-darken"
+        />
+      </div>
+    </section>
+
+    <!-- {/* Projects Section */} -->
+    <section
+      class="mt-20 mx-5 h-screen flex flex-col justify-center items-center"
+    >
+      <h2
+        class="md:my-10 text-2xl sm:text-3xl md:4xl lg:text-5xl text-center underline underline-offset-3 font-serif"
+      >
+        Projects
+      </h2>
+      <div class="my-10 grid grid-row-2 gap-5">
+        <!-- {/* Project 1 */} -->
+        <article
+          class="md:w-5xl md:mb-4 flex flex-col p-5 text-white bg-blue-400 animate-pulse border-2 rounded-3xl border-blue-400"
+        >
+          <h3 class="text-xl font-bold my-2 mx-2">Advance Filtering App</h3>
+          <p class="px-5">
+            A dynamic product filtering system using React that allows users to
+            search products in real-time filter based on categories, color,
+            company, and pricing combine filters and search seamlessly for a
+            smoother UX.
+          </p>
+        </article>
+        <!-- {/* Project 2 */} -->
+        <article
+          class="md:w-5xl md:mb-4 flex flex-col p-3 text-white bg-blue-400 animate-pulse border-2 rounded-3xl border-blue-400"
+        >
+          <h3 class="text-xl font-bold my-2 mx-2">To-Do List App</h3>
+          <p class="px-5">
+            A lightweight and user-friendly task manager built with React. This
+            app helps users stay organized by allowing them to add, view, and
+            remove to-do items in real-time. It features a clean UI layout with
+            smooth interactions and a responsive design suitable for both
+            desktop and mobile devices.
+          </p>
+        </article>
+
+        <article
+          class="md:w-5xl md:mb-4 flex flex-col p-3 text-white bg-blue-400 animate-pulse border-2 rounded-3xl border-blue-400"
+        >
+          <h3 class="text-xl font-bold my-2 mx-2">Form Validation</h3>
+          <p class="px-5">
+            A form validation system using HTML, CSS, and JavaScript to ensure
+            user-friendly input validation and feedback. This project focuses on
+            enhancing user experience by providing real-time validation messages
+            for fields like username, email, and password confirmation.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- {/* Contact info */} -->
+    <section class="mt-5 h-screen flex flex-col justify-center items-center">
+      <h2
+        class="mb-20 text-4xl sm:text-3xl md:text-5xl lg:text-6xl underline font-serif"
+      >
+        Work With Me!
+      </h2>
+      <div class="flex flex-col gap-5">
+        <p class="text-3xl font-serif">Sanjeevani Sahare</p>
+        <div class="mt-10 flex flex-wrap justify-evenly">
+          <a
+            href="https://www.linkedin.com/in/sanjeevani-sahare"
+            class="text-blue-500 transition ease duration-1000 hover:scale-120 hover:underline hover:underline-offset-3"
+          >
+            Linkedin
+          </a>
+
+          <a
+            href="https://github.com/sanie99"
+            class="text-blue-500 transition ease duration-1000 hover:scale-120 hover:underline hover:underline-offset-3"
+          >
+            Github
+          </a>
+
+          <a
+            href="mailto:saharesan99@gmail.com"
+            class="text-blue-500 transition ease duration-1000 hover:scale-120 hover:underline hover:underline-offset-3"
+          >
+            GMail
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- {/* Footer */} -->
+    <footer class="w-full h-[25px] bg-black">
+      <p class="text-white text-center">
+        &copy; 2025 Sanjeevani Sahare. Built with ❤️
+      </p>
+    </footer>
+  </body>
+</html>
