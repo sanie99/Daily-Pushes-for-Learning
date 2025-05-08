@@ -12,23 +12,29 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body
-    class="min-w-[480px] flex justify-center items-center flex-col bg-sky-100"
+    class="min-w-[480px] flex justify-center items-center flex-col bg-violet-200"
   >
     <!--  Hero Section  -->
     <section
       class="px-4 py-10 mb-10 sm:py-0 sm:p-4 w-screen h-screen flex flex-wrap justify-center items-center min-w-[480px]"
     >
-      <img
-        class="h-sm w-sm sm:h-sm sm:w-sm md:h-md md:w-md rounded-full mix-blend-darken"
-        src="images/pfp.jpg"
-        alt="Sanjeevani's photograph"
-      />
+      <div
+        class="mr-5 h-sm w-sm sm:h-sm sm:w-sm md:h-md md:w-md rounded-full shadow-xl shadow-violet-300 overflow-hidden"
+      >
+        <img
+          class="mr-5 h-sm w-sm sm:h-sm sm:w-sm md:h-md md:w-md rounded-full mix-blend-darken transition duration-1000 ease hover:scale-110"
+          src="images/pfp.jpg"
+          alt="Sanjeevani's photograph"
+        />
+      </div>
       <!-- <h4 class="text-lg">Making Lives Simpler</h4> -->
       <h1 class="text-xl sm:text-4xl md:text-5xl lg:text-6xl font-serif">
         Hi, <br />
         My name is Sanjeevani Sahare
       </h1>
-      <h2 class="text-lg sm:text-xl md:3xl lg:text-5xl text-center">
+      <h2
+        class="text-lg sm:text-xl md:3xl lg:text-5xl text-center underline underline-offset-15"
+      >
         Front-End Developer | Aspiring MERN Stack Developer
       </h2>
     </section>
@@ -55,7 +61,11 @@
         me forward in this fast-paced tech landscape.
       </p>
       <div class="my-10 mx-5 max-w-full grid grid-cols-6 gap-5">
-        <img src="images/html.webp" alt="HTML logo" class="mix-blend-darken" />
+        <img
+          src="images/html.webp"
+          alt="HTML logo"
+          class="rounded-full mix-blend-darken"
+        />
         <img
           src="images/css.png"
           alt="CSS logo"
@@ -98,7 +108,7 @@
       >
         <!-- {/* Project 1 */} -->
         <article
-          class="md:w-5xl md:mb-4 max-w-[450px] md:max-w-full lg:max-w-full flex flex-col p-5 text-white bg-blue-400 animate-pulse border-2 rounded-3xl border-blue-400"
+          class="md:w-5xl md:mb-4 max-w-[450px] md:max-w-full lg:max-w-full flex flex-col p-5 text-white bg-violet-400 animate-pulse border-2 rounded-3xl border-violet-400"
         >
           <h3 class="text-xl font-bold my-2 mx-2">Advance Filtering App</h3>
           <p class="px-5">
@@ -110,7 +120,7 @@
         </article>
         <!-- {/* Project 2 */} -->
         <article
-          class="md:w-5xl md:mb-4 max-w-[450px] md:max-w-full lg:max-w-full flex flex-col p-3 text-white bg-blue-400 animate-pulse border-2 rounded-3xl border-blue-400"
+          class="md:w-5xl md:mb-4 max-w-[450px] md:max-w-full lg:max-w-full flex flex-col p-3 text-white bg-violet-400 animate-pulse border-2 rounded-3xl border-violet-400"
         >
           <h3 class="text-xl font-bold my-2 mx-2">To-Do List App</h3>
           <p class="px-5">
@@ -123,7 +133,7 @@
         </article>
 
         <article
-          class="md:w-5xl md:mb-4 max-w-[450px] md:max-w-full lg:max-w-full flex flex-col p-3 text-white bg-blue-400 animate-pulse border-2 rounded-3xl border-blue-400"
+          class="md:w-5xl md:mb-4 max-w-[450px] md:max-w-full lg:max-w-full flex flex-col p-3 text-white bg-violet-400 animate-pulse border-2 rounded-3xl border-violet-400"
         >
           <h3 class="text-xl font-bold my-2 mx-2">Form Validation</h3>
           <p class="px-5">

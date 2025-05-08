@@ -13,24 +13,12 @@ body {
 }
 
 .box {
-  padding: 20px;
   height: 320px;
-  width: 280px;
-  background: salmon;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 320px;
+  border: 10px solid #ddd;
   border-radius: 50%;
-  position: relative;
+  border-top-color: salmon;
   animation: slime infinite linear 2s;
-}
-
-.item {
-  height: 300px;
-  width: 300px;
-  background-color: white;
-  border-radius: 50%;
-  position: absolute;
 }
 
 @keyframes slime {

@@ -22,7 +22,12 @@ body {
   align-items: center;
   flex-direction: column;
   transform: translateX(-370px);
-  animation: slide-out 2s ease none;
+  transition: 2s ease;
+}
+
+.navigation.active {
+  transition: 2s ease;
+  transform: translateX(0px);
 }
 
 .burger {
@@ -30,7 +35,7 @@ body {
   width: 40px;
   padding: 3px;
   display: inline-flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 5px;
@@ -45,6 +50,7 @@ body {
   height: 5px;
   width: 25px;
   background: #111;
+  transition: 2s ease;
 }
 
 .navigation ul {
@@ -72,11 +78,12 @@ body {
   text-decoration: none;
 }
 
-@keyframes slide-out {
-  0% {
-    transform: translateX(-370px);
-  }
-  100% {
-    transform: translateX(0px);
-  }
+.up.rotate {
+  transition: 2s ease;
+  transform: rotate(225deg) translateY(-7px);
+}
+
+.down.rotate {
+  transition: 2s ease;
+  transform: rotate(-225deg) translateY(7px);
 }

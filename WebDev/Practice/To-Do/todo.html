@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body
+    class="h-screen w-screen bg-gradient-to-b from-white-400 to-violet-400 flex flex-col flex-wrap justify-center items-center"
+  >
+    <h1 class="mb-5 text-4xl font-serif underline text-center">Your To-Dos</h1>
+    <section
+      class="p-5 w-[80vw] h-[80vh] flex gap-5 justify-center items-center"
+    >
+      <section
+        class="w-[50%] h-full border-3 border-black-500 shadow-2xl flex flex-col flex-wrap justify-center items-center"
+      >
+        <label for="todo" class="m-5 text-center text-xl font-serif"
+          >Enter Your To-Do:</label
+        >
+        <input
+          type="text"
+          placeholder="To-Do"
+          id="todo"
+          class="m-5 h-[30px] w-[70%] text-sm p-2 border-2 border-black-500"
+        />
+        <button
+          class="m-5 h-[30px] w-[100px] rounded-xl border-2 border-black-500 shadow-xl cursor-pointer transition duration-500 ease hover:bg-violet-400 hover:scale-110 active:bg-white"
+        >
+          Add
+        </button>
+      </section>
+      <section
+        class="w-[50%] h-full border-3 border-black-500 shadow-2xl flex flex-col flex-wrap justify-center items-center rendering"
+      ></section>
+    </section>
+    <script src="todo.js"></script>
+  </body>
+</html>
